@@ -35,6 +35,9 @@ public struct SheetOptions {
     /// Default value 500, greater value will require more velocity to dismiss. Lesser values will do opposite.
     public var pullDismissThreshod: CGFloat = 500.0
     
+    public var pullDownDismissDistance: CGFloat = 100
+    public var dismissAnimationDuration: TimeInterval = 0.3
+    
     /// Allow the sheet to become full screen if pulled all the way to the top and not larger than the maximum size specified in sizes. Defaults to false.
     public var useFullScreenMode = true
     public var shrinkPresentingViewController = true
